@@ -12,9 +12,9 @@ import TransitionPage from '@/components/transition-page';
 
 const TestimonialsPage = () => {
     return (
-        <div className="mt-4">
+        <div>
             <TransitionPage />
-            <div className='flex flex-col justify-center h-lvh'>
+            <div className="flex flex-col justify-center h-lvh mt-4">
                 <CircleImage />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Algunos comentarios,
@@ -49,7 +49,7 @@ const TestimonialsPage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
