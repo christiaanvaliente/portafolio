@@ -17,7 +17,7 @@ const TestimonialsPage = () => {
             <div className="flex flex-col justify-center h-lvh">
                 <CircleImage />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-                    Algunos comentarios..
+                    Algunos comentarios 
                     <span className="block font-bold text-secondary"> de nuestros clientes</span>
                 </h1>
                 <div className="flex items-center justify-center">
