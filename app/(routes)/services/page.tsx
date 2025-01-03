@@ -15,7 +15,7 @@ const ServicesPage = () => {
                 <div className="max-w-[450px] mt-20 md:mt-0">
 
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5 mt-8">
-                        Mis {" "}
+                        Mis {"- "}
                         <span className="font-bold text-secondary"> 
                             servicios.
                             </span>
