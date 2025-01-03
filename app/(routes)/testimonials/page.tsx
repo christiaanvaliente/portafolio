@@ -14,10 +14,10 @@ const TestimonialsPage = () => {
     return (
         <div>
             <TransitionPage />
-            <div className="flex flex-col justify-center h-lvh px-4">
+            <div className="flex flex-col justify-center h-lvh mt-8">
                 <CircleImage />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-                    Algunos comentarios,
+                    Algunos comentario..
                     <span className="block font-bold text-secondary"> de nuestros clientes</span>
                 </h1>
                 <div className="flex items-center justify-center">
