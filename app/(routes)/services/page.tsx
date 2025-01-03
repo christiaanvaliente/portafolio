@@ -25,7 +25,7 @@ const ServicesPage = () => {
                         sitios web y aplicaciones atractivas y funcionales. 
                         Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño 
                         interfaces de usuario intuitivas y responsivas que reflejan 
-                        la identidad de marca de mis clientes y mejoran su presencia en línea.</p>
+                        la identidad de marca de mis clientes y mejoran su presencia en línea..</p>
                     <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
                 </div>
 
