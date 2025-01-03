@@ -12,15 +12,15 @@ const ServicesPage = () => {
             <AvatarServices />
             <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto 
             md:grid-cols-2 md:px-20">
-                <div className="max-w-[450px] mt-20 md:mt-0">
+                <div className="max-w-[450px] mt-20 md:mt-0 px-4">
 
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5 mt-8">
-                        Mis {" "}
+                        Mis {". "}
                         <span className="font-bold text-secondary"> 
                             servicios.
                             </span>
                     </h1>
-                    <p className="mb-3 text-xl text-gray-300 text-justify mt-4 px-4">Ofrezco servicios de 
+                    <p className="mb-3 text-xl text-gray-300 text-justify mt-4">Ofrezco servicios de 
                         desarrollo web frontend especializados en la creación de 
                         sitios web y aplicaciones atractivas y funcionales. 
                         Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño 
