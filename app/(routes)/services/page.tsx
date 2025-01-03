@@ -20,7 +20,7 @@ const ServicesPage = () => {
                             servicios.
                             </span>
                     </h1>
-                    <p className="mb-3 text-xl text-gray-300 text-justify mt-4">Ofrezco servicios de 
+                    <p className="mb-3 text-xl text-gray-300 text-justify mt-4 px-4">Ofrezco servicios de 
                         desarrollo web frontend especializados en la creación de 
                         sitios web y aplicaciones atractivas y funcionales. 
                         Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño 
