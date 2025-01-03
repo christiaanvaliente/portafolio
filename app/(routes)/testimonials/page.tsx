@@ -12,7 +12,7 @@ import TransitionPage from '@/components/transition-page';
 
 const TestimonialsPage = () => {
     return (
-        <div>
+        <>
             <TransitionPage />
             <div className="flex flex-col justify-center h-lvh mt-8">
                 <CircleImage />
