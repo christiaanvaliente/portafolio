@@ -64,106 +64,121 @@ export const itemsNavbar = [
 
 export const dataAboutPage = [
     {
-        id: 1,
-        title: "Analista academico",
-        subtitle: "Universidad del Mar",
-        description: "Colabora con un equipo dinámico para atender sus requerimientos, elaborando consultas SQL e informes que aporten valor para el cumplimiento de las metas institucionales.",
-        date: "Junio 2012 ",
-    },
-    {
-        id: 2,
-        title: "Encargado de activos",
-        subtitle: "Convenio de cierre U. del Mar",
-        description: "Colabora con un equipo dinámico para atender sus requerimientos, elaborando consultas SQL e informes que aporten valor para el cumplimiento de las metas institucionales.",
-        date: "May 2013",
-    },
-    {
-        id: 3,
-        title: "Soporte Informatico",
-        subtitle: "Instituto Profesional AIEP",
-        description: "Técnico de soporte informático resuelve problemas técnicos en equipos diversos, planea estrategias para la continuidad operacional y optimiza el funcionamiento de la infraestructura TIC. Brinda soporte presencial, remoto o por ambos canales. Excelentes habilidades de comunicación.",
-        date: "Oct 2014",
-    },
-    {
-        id: 4,
-        title: "Desarrollo Web",
-        subtitle: "Freelance",
-        description: "Realiza levantamiento de requerimientos, elabora diseños y desarrolla sitios web segun necesidades de clientes",
-        date: "Mar 2023",
-    },
-    {
-        id: 5,
-        title: "Docente",
-        subtitle: "Instituto Profesional AIEP",
-        description: "Docente apasionado por la programación y el análisis de sistemas, imparte clases a estudiantes de diversos niveles. Enfatiza la creación de código de calidad, mantenible y siguiendo los principios del clean code, solid y patrones de desarrollo",
-        date: "Mar 2024",
-    },
-    {
-        id:5,
-        title: "Lider de Proyecto Logística Sustentable",
-        subtitle:"Instituto AIEP - SERCOTEC",
-        description:"Responsable del desarrollo e implementación de proyecto Logistica Sustentable, capacitanto y guiando a alumnos en las distintas etapas del SDCL, hasta su implementación",
-        date:"Agos 2024",
-    },
-]
+    id: 1,
+    title: "Líder Tecnológico de Proyecto - Proyecto Humedal",
+    subtitle: "AIEP, Municipalidad, ONG y empresa privada",
+    description:
+      "Encargado del desarrollo de una plataforma web educativa e informativa para la conservación de un humedal urbano. Lidero el diseño, arquitectura y despliegue del sistema junto a estudiantes de programación y ciberseguridad, integrando sensores IoT, indicadores medioambientales y contenido accesible.",
+    date: "Julio 2025",
+  }, 
+  {
+    id: 2,
+    title: "Docente de Programación y Análisis de Sistemas",
+    subtitle: "Instituto Profesional AIEP",
+    description:
+      "Diseño e imparto clases para carreras técnicas e ingenieriles, enfocándome en principios de desarrollo profesional como Clean Code, SOLID y patrones de diseño. Guío a los estudiantes en la implementación de soluciones funcionales, robustas y mantenibles.",
+    date: "Marzo 2025",
+  },
+  {
+    id: 3,
+    title: "Líder Tecnológico de Proyecto - Logística Sustentable",
+    subtitle: "Instituto AIEP & SERCOTEC",
+    description:
+      "Responsable del desarrollo e implementación del software de gestión logística para pymes. Coordinación de estudiantes de distintas carreras, planificación técnica, capacitación y acompañamiento en cada etapa del SDCL hasta su implementación en terreno.",
+    date: "Agosto 2024",
+    
+  },
+  {
+    id: 4,
+    title: "Docente de Programación y Análisis de Sistemas",
+    subtitle: "Instituto Profesional AIEP",
+    description:
+      "Diseño e imparto clases para carreras técnicas e ingenieriles, enfocándome en principios de desarrollo profesional como Clean Code, SOLID y patrones de diseño. Guío a los estudiantes en la implementación de soluciones funcionales, robustas y mantenibles.",
+    date: "Marzo 2024",
+  },  
+  {
+    id: 5,
+    title: "Desarrollador Web Freelance",
+    subtitle: "Independiente",
+    description:
+      "Encargado del levantamiento de requerimientos, diseño e implementación de sitios web a medida para clientes individuales y pequeñas empresas. Enfoque en usabilidad, rendimiento y adaptabilidad.",
+    date: "Marzo 2023",
+  },
+  {
+    id: 6,
+    title: "Técnico de Soporte Informático",
+    subtitle: "Instituto Profesional AIEP",
+    description:
+      "Responsable del diagnóstico, reparación y mantenimiento de equipos. Soporte a usuarios en modalidad presencial y remota, optimización de redes internas y continuidad operativa de servicios institucionales.",
+    date: "Oct 2014",
+  },
+  {
+    id: 7,
+    title: "Encargado de Activos",
+    subtitle: "Convenio de Cierre Universidad del Mar",
+    description:
+      "Gestión y seguimiento del inventario físico y digital de activos de la institución. Apoyo en procesos de cierre administrativo y auditorías externas.",
+    date: "Mayo 2013",
+  },
+  {
+    id: 8,
+    title: "Analista Académico",
+    subtitle: "Universidad del Mar",
+    description:
+      "Desarrollo de reportes, consultas SQL y análisis de datos académicos. Soporte a equipos administrativos para la toma de decisiones y mejora de indicadores institucionales.",
+    date: "Abril 2013",
+  },
+];
+
 
 export const dataCounter = [
-    {
-        id: 0,
-        endCounter: 12,
-        text: "Años de experiencia",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 1,
-        endCounter: 9,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganados",
-        lineRight: false,
-        lineRightMobile: false,
-    },
+  {
+    id: 0,
+    endCounter: 25,
+    text: "Proyectos desarrollados",
+    lineRight: true,
+    lineRightMobile: true,
+  },
+  {
+    id: 1,
+    endCounter: 12,
+    text: "Años en tecnología",
+    lineRight: true,
+    lineRightMobile: false,
+  },
+  {
+    id: 2,
+    endCounter: 15,
+    text: "Instituciones apoyadas",
+    lineRight: true,
+    lineRightMobile: true,
+  },
+  {
+    id: 3,
+    endCounter: 3,
+    text: "Premios y reconocimientos",
+    lineRight: false,
+    lineRightMobile: false,
+  },
 ];
 
 export const serviceData = [
-    {
-        icon: <Crop />,
-        title: "Automatizacion de procesos",
-        description: "Desarrollo e implementación de herramientas que permiten realizar labores desde script",
-    },
-    {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
-    },
-    {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+  {
+    icon: <Crop />,
+    title: "Automatización de procesos",
+    description: "Desarrollo e implementación de herramientas que permiten realizar labores desde script",
+  },
+  {
+    icon: <Pencil />,
+    title: "Diseño web",
+    description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+  },
+  {
+    icon: <Computer />,
+    title: "Desarrollo web",
+    description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+  }
+  
 ];
 
 export const dataPortfolio = [

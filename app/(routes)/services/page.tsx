@@ -4,38 +4,47 @@ import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 
 const ServicesPage = () => {
-    return (
-        <>
+  return (
+    <>
+      <TransitionPage />
+      <CircleImage />
 
-            <TransitionPage />
-            <CircleImage />
-            <AvatarServices />
-            <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto 
-            md:grid-cols-2 md:px-20">
-                <div className="max-w-[450px] mt-20 md:mt-0 px-4">
+      {/* Aumentamos altura mínima y removemos restricciones de overflow */}
+      <section className="relative min-h-[750px] py-16 px-4 md:px-20 bg-transparent text-white overflow-visible">
 
-                    <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5 mt-8">
-                        Mis {" "}
-                        <span className="font-bold text-secondary"> 
-                            servicios.
-                            </span>
-                    </h1>
-                    <p className="mb-3 text-xl text-gray-300 text-justify mt-4">Ofrezco servicios de 
-                        desarrollo web frontend especializados en la creación de 
-                        sitios web y aplicaciones atractivas y funcionales. 
-                        Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño 
-                        interfaces de usuario intuitivas y responsivas que reflejan 
-                        la identidad de marca de mis clientes y mejoran su presencia en línea..</p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
-                </div>
+        {/* Imagen con Motion */}
+        <AvatarServices />
 
-                {/* SLIDER */}
-                <div>
-                    <SliderServices />
-                </div>
-            </div>
-        </>
-    );
-}
+        {/* Contenedor de contenido principal */}
+        <div className="relative z-10 max-w-7xl mx-auto grid gap-10 md:grid-cols-2 items-center bg-[#0e0c23]/70 backdrop-blur-sm rounded-xl p-6 md:p-12 shadow-lg">
+          
+          {/* TEXTO */}
+          <div>
+            <h1 className="text-4xl font-bold leading-tight mb-6">
+              Mis <span className="text-secondary">servicios.</span>
+            </h1>
+
+            <p className="text-lg text-gray-300 mb-6 text-justify">
+              Ofrezco servicios de desarrollo web centrados en la creación
+              de plataformas atractivas, funcionales y adaptadas a cada necesidad.
+              Utilizo tecnologías modernas como HTML, CSS, JavaScript y frameworks actuales
+              para diseñar interfaces intuitivas que potencien la presencia digital y refuercen
+              la identidad de marca de cada cliente.
+            </p>
+
+            <button className="px-6 py-3 rounded-lg bg-secondary hover:bg-secondary/70 transition mx-auto md:mx-0 block md:inline-block">
+              Contacta conmigo
+            </button>
+          </div>
+
+          {/* SLIDER */}
+          <div>
+            <SliderServices />
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default ServicesPage;
