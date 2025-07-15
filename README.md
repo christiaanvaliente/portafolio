@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio Profesional – Christiaan Valiente
 
-## Getting Started
+Este es mi portafolio personal, desarrollado para presentar mis habilidades, proyectos y enfoque profesional como desarrollador web. El sitio está construido con Next.js y Tailwind CSS, desplegado automáticamente con Netlify a partir del repositorio en GitHub.
 
-First, run the development server:
+## Enlace en línea
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Ver Portafolio](https://genuine-daffodil-b6033c.netlify.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Git & GitHub
+- [Netlify](https://www.netlify.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Secciones del portafolio
 
-## Learn More
+- Inicio
+- Sobre mí
+- Servicios
+- Proyectos (en desarrollo)
+- Testimonios (en desarrollo)
+- Contacto
 
-To learn more about Next.js, take a look at the following resources:
+##  Características
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Navegación fluida y estructura SPA
+- Diseño responsivo y moderno
+- Despliegue continuo con GitHub y Netlify
+- Preparado para escalar con nuevos proyectos y contenido
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Estado del proyecto
 
-## Deploy on Vercel
+ Funcional y en línea  
+ Secciones *Proyectos* y *Testimonios* actualmente en desarrollo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Christiaan Valiente  
+Desarrollador web e ingeniero en informática  
+[LinkedIn](https://www.linkedin.com/in/christiaan-valiente-716401335/)  
+[GitHub](https://github.com/christiaanvaliente)
+
+---
+
